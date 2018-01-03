@@ -31,4 +31,14 @@ function printQuote() {
   message += '</p>';
   print(message);
   message = '';
-}
+  }
+
+
+//function to generate random rgb color and make it the background color
+  function randomColor() {
+      var red = Math.floor(Math.random() * 256); // range is 0-255
+	    var green = Math.floor(Math.random() * 256);
+	    var blue = Math.floor(Math.random() * 256);
+	    var bgColor = "rgb(" + red + "," + green + "," + blue + ")"; 
+  	document.body.style.background = bgColor;
+  }
