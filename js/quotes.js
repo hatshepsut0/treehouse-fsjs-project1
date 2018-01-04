@@ -3,7 +3,7 @@
 
 var quotes = [
     {
-      quote: 'Do I contradict myself? Very well, then, I contradict myself; I am large -- I contain multitudes.',
+      quote: 'Do I contradict myself? Very well, then, I contradict myself; I am large ' + "\u2014" + ' I contain multitudes.',
       source: "Walt Whitman",
       citation: 'Song of Myself',
       year: 1855,
